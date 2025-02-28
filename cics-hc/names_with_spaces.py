@@ -1,3 +1,12 @@
+
+"""
+Name: Jose Alarcon Chacon
+Email: jose.alarconchacon76@login.cuny.edu
+Date: February 28, 2025
+# This program asks the user to enter a list of names separated by commas. It then prints a list of names that contain spaces.
+"""
+
+
 # ask the user to enter last names separated by commas
 names = input("Enter names, separated by commas: ")
 # split the input string into a list of names
