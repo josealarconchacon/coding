@@ -1,4 +1,3 @@
-
 """
 Name: Jose Alarcon Chacon
 Email: jose.alarconchacon76@login.cuny.edu
