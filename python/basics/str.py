@@ -13,7 +13,7 @@ first = "Hello"
 last = "World"
 print(first + " " + last)  # Hello World
 
-# string and numbers 
+# string 
 s = "  Python is Awesome!  "
 print(s.lower())      # '  python is awesome!  '
 print(s.upper())      # '  PYTHON IS AWESOME!  '
@@ -62,3 +62,18 @@ print(greeting[4:7]) # o T
 # trying to change part of a string will raise an error
 name = "Tom"
 # name[0] = "M"  # This will raise: TypeError: 'str' object does not support item assignment
+
+# built-Iin functions + methods
+text = "Python"
+# len() - returns the number of characters
+print(len(text))  # 6
+# type() - tells you the data type
+print(type(text))  # <class 'str'>
+# str() - converts something to a string
+num = 123
+print(str(num))  # '123'
+# sorted() - returns a sorted list of characters
+print(sorted(text))  # ['P', 'h', 'n', 'o', 't', 'y']
+# enumerate() - gives index and character
+for index, char in enumerate(text):
+    print(index, char)
