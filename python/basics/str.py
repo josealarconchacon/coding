@@ -49,3 +49,9 @@ print(f"My name is {name} and I am {age} years old.")
 print("My name is {} and I am {} years old.".format(name, age))
 # % formatting (old style)
 print("My name is %s and I am %d years old." % (name, age))
+
+# indexes
+greeting = "Hello Tom"
+print(greeting[:4].lower()) # hell
+print(greeting[3:5]) # lo
+print(greeting[4:7]) # o T
