@@ -55,3 +55,10 @@ greeting = "Hello Tom"
 print(greeting[:4].lower()) # hell
 print(greeting[3:5]) # lo
 print(greeting[4:7]) # o T
+
+# immutability
+# string in python are Immutable, once a string is created, its value cannot be changed. 
+# any operation that appears to modify a string actually creates a new string.
+# trying to change part of a string will raise an error
+name = "Tom"
+# name[0] = "M"  # This will raise: TypeError: 'str' object does not support item assignment
