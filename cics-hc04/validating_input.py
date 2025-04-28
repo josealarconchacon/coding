@@ -1,10 +1,4 @@
 
-"""
-Name: Jose Alarcon Chacon
-Email: jose.alarconchacon76@login.cuny.edu
-Date: April 28, 2025
-Prompt the user until a non-empty string is entered, then display it.
-"""
 
 # get user input
 def get_user_input():
