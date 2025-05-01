@@ -1,0 +1,11 @@
+
+
+ADDI $t0, $zero, 72    # H
+ADDI $t0, $zero, 101   # e
+ADDI $t0, $zero, 108   # l
+ADDI $t0, $zero, 108   # l
+ADDI $t0, $zero, 111   # o
+ADDI $t0, $zero, 33    # !
+ADDI $t0, $zero, 33    # !
+ADDI $t0, $zero, 33    # !
+
