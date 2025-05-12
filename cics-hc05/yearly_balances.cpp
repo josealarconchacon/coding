@@ -1,9 +1,3 @@
-// Name: Jose Alarcon Chacon
-// Email: jose.alarconchacon76@login.cuny.edu
-// Date: May 12, 2025
-// Display year balance with 3 percent until it reaches 1000
-
-
 #include <iostream>
 using namespace std;
 
