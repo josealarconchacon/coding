@@ -1,14 +1,3 @@
-
-"""
-Name: Jose Alarcon Chacon
-Email: jose.alarconchacon76@login.cuny.edu
-Date: April 23, 2025
-Reads a CSV file containing collision data, 
-filters out rows with missing latitude, longitude, and time values, 
-and then creates an interactive map using Plotly visualizing collision locations and save the map as an HTML.
-"""
-
-
 import plotly.graph_objects as go #Including for markers
 import plotly.express as px # Including for map
 import pandas as pd
